@@ -1,13 +1,35 @@
+.header_picture {
+    position: relative; /* parent voor absolute positioning */
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden; /* voorkomt dat content buiten beeld gaat */
+}
+
 .header_picture img {
-    width: 100vw;   /* kies zelf de gewenste breedte */
-    height: 100vh;  
-     filter: brightness(30%); /* lager = donkerder */
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* afbeelding netjes vullen zonder te vervormen */
+    filter: brightness(30%);
+    display: block;
 }
 
 .welcome_block {
-    background-color: purple;
+    position: absolute; /* overlay boven de afbeelding */
+    top: 0;
+    left: 0;
+    
+    display: flex; /* centeren met flexbox */
+    justify-content: center; /* horizontaal centreren */
+    align-items: center; /* verticaal centreren */
+    
+    text-align: center;
+    background-color: rgba(109, 74, 123, 0.6); /* halfdoorzichtige overlay */
+    color: white;
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-sizing: border-box; /* padding telt mee in breedte */
 }
- 
+
 
 
 
