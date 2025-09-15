@@ -35,11 +35,4 @@
         </div>
     </div>
 </body>
-
-<div>
-    <img class="headerpicture" src="../header_afbeelding.jpg">
-</div>
-
-
-
 </html>
