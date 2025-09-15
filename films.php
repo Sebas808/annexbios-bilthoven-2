@@ -5,11 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="assets/css/films.css">
+    <link rel="stylesheet" href="/annexbios-bilthoven-2/assets/css/films.css">
 
 
 
 
+
+    
 </head>
 
 <body>
