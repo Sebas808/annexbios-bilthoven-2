@@ -1,45 +1,65 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
+  background-color: #000; 
 }
 
 .film-container {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
 }
 
+
 .film {
-  border: 1px solid #000000;
-  padding: 10px;
-  text-align: center;
+  background-color: #fff;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+  text-align: left;
+  display: flex;
+  flex-direction: column;
 }
 
 .film img {
   width: 100%;
-  height: auto;
+  display: block;
 }
 
 .button {
-  display: inline-block;
-  margin-top: 10px;
-  padding: 8px 12px;
-  background-color: #007bff;
+  display: block;
+  margin-top: auto; /* duwt button naar onder */
+  padding: 10px 15px;
+  background-color: #6a4c93;
   color: white;
+  font-weight: bold;
+  text-align: center;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 3px;
+}
+.button:hover {
+  background-color: #54367a;
 }
 
-.button:hover {
-  background-color: #0056b3;
-}
 
 #films {
   margin-top: 10%;
 }
 
+.film h2 {
+  font-size: 18px;
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.film p {
+  font-size: 14px;
+  color: #555;
+  margin: 5px 0;
+}
+
 #head {
-  width: 100%;
+  width: 25%;
   background: #fff;
   padding: 15px 20px;
   border-radius: 4px;
@@ -70,4 +90,11 @@ body {
   display: flex;
   align-items: center;
   gap: 5px;
+}
+
+#films, 
+.film-container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px; 
 }
