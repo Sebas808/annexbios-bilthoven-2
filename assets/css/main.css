@@ -1,0 +1,265 @@
+.header_picture img {
+    width: 100vw;   /* kies zelf de gewenste breedte */
+    height: 100vh;  
+     filter: brightness(30%); /* lager = donkerder */
+}
+
+.welcome_block {
+    background-color: purple;
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header css vanaf hier */ 
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #222;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    background: white;
+    padding: 0 40px;
+}
+
+.logo {
+    width: 220px;
+    display: block;
+}
+
+.rightside_info {
+    display: flex;
+    gap: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.rightside_info a {
+    color: #111;
+    text-decoration: none;
+}
+
+
+.underheader {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #6d4a7b;
+   
+    height: 65px;
+    padding: 0 100px;
+ 
+}
+
+.buy_ticket {
+    color: white;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+
+
+.ticket_controls {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+
+}
+
+.film_select {
+    height: 36px;
+
+    padding: 0 10px;
+    border-radius: 4px;
+    border: none;
+    font-size: 14px;
+}
+
+.buy_button {
+    height: 32px;
+
+    padding: 0 12px;
+    border-radius: 4px;
+    border: none;
+    background: white;
+    font-weight: 600;
+    font-size: 13px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+ 
+    justify-content: center;
+}
+
+.buy_button:hover {
+    background: #f2f2f2;
+}
+
+.logo_group {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.divider {
+    width: 1px;
+    height: 40px;
+    background-color: #999;
+}
+
+.divider_text {
+    font-size: 16px;
+    font-weight: bold;
+    color: #444;
+}
+
+/* header css tot hier */ 
+
+
+
+
+
+/* footer css vanaf hier */
+
+body{
+margin: 0;
+
+}
+.footer-main {
+    background-color: #000;
+    width: 100%;
+    font-family: Arial, sans-serif;
+      height: 430px;
+}
+
+
+.footer-top {
+    display: flex;
+    justify-content: flex-start; 
+    background-color: #666;
+    color: #fff;
+    padding: 50px 100px; 
+    gap: 70px; 
+}
+
+.footer-top-left {
+    width: 280px; 
+}
+
+
+
+.footer-logo-kleur{
+width: 200px;
+
+  filter: brightness(0) invert(1);
+}
+
+
+
+
+.footer-description {
+    margin: 20px 0;
+    line-height: 1.5;
+    width: 310px;
+}
+
+
+.footer-button {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.footer-top-mid {
+margin-top: 55px;
+margin-left: 70px;
+width: 160px;
+}
+
+.footer-title {
+    font-size: 24px; 
+    margin-bottom: 15px;
+   
+    font-weight: 600;
+}
+.footer-links {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-top-right {
+    margin-top: 50px;
+    margin-right: 250px;
+width: 140px;
+}
+
+.social-icons {
+    display: flex;
+    gap: 15px;
+    
+    width: 28px;
+    height: 28px;
+}
+
+.social-icons img {
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.footer-down {
+    background-color: #000;
+   margin-left: 80px;
+    padding: 15px;
+    color: #fff;
+    font-size: 14px;
+}
+.footer-stairs {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.footer-stair-pic {
+    height: 100%; /* of bijvoorbeeld 430px als je vaste hoogte wil */
+    opacity: 0.7; /* maakt het wat subtieler */
+    margin-bottom: 325px;
+}
+
+/* footer css tot hier */
