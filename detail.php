@@ -21,7 +21,7 @@ detail.php?id=3 → Solo -->
  include 'includes/h1.php';
 include 'includes/array.php';
 
-$id = isset($_GET['id']) ? (int)$_GET['id'] : 2;
+$id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
 
 if (!isset($films[$id])) {
     echo "<h2>Film niet gevonden</h2>";
