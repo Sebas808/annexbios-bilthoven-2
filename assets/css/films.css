@@ -1,7 +1,7 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #000; 
+  background-color: #000000; 
 }
 
 .film-container {
@@ -28,7 +28,7 @@ body {
 
 .button {
   display: block;
-  margin-top: auto; /* duwt button naar onder */
+  margin-top: auto; 
   padding: 10px 15px;
   background-color: #6a4c93;
   color: white;
@@ -37,6 +37,7 @@ body {
   text-decoration: none;
   border-radius: 3px;
 }
+
 .button:hover {
   background-color: #54367a;
 }
@@ -94,7 +95,7 @@ body {
 
 #films, 
 .film-container {
-  background-color: #fff;
+  background-color: #000000;
   padding: 20px;
   border-radius: 8px; 
 }
