@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../assets/css/footer.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
     <title>Footer</title>
 </head>
 <body>
@@ -12,7 +12,7 @@
             <!-- Linkerblok (logo + tekst) -->
             <div class="footer-top-left">
                 <div class="footer-logo">
-          <img src="../assets/img/logo_hoofd.png" alt="AnnexBios Logo"  class="footer-logo-kleur"> 
+          <img src="assets/img/logo_hoofd.png" alt="AnnexBios Logo"  class="footer-logo-kleur"> 
                 </div>
                 <div class="footer-description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean commodo ligula eget dolor. 
@@ -36,13 +36,13 @@
             <div class="footer-top-right">
                 <div class="footer-title">VOLG ONS</div>
                 <div class="social-icons">
-                    <a href="#"><img src="../assets/img/facebook.png" alt="Facebook"></a>
-                    <a href="https://www.youtube.com/shorts/8SljQrC3fSA"><img src="../assets/img/twitter.png" alt="Twitter"></a>
-                    <a href="https://www.instagram.com/jackvangameren/"><img src="../assets/img/instagram.png" alt="Instagram"></a>
+                    <a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.youtube.com/shorts/8SljQrC3fSA"><img src="assets/img/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com/jackvangameren/"><img src="assets/img/instagram.png" alt="Instagram"></a>
                 </div>
             </div>
         <div class="footer-stairs">
-        <img src="../img/footer-stairs.png" alt="Filmrol" class="footer-stair-pic">
+   <img src="assets/img/footer-stairs.png" alt="Filmrol" class="footer-stair-pic">
     </div>
         </div>
 
