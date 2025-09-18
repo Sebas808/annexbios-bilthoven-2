@@ -73,7 +73,7 @@ $film = $films[$id];
     </div>
   </div>
 
-  <!-- Button buiten film-container -->
+  <!-- //Button buiten film-container -->
   <a href="#" class="btn-ticket">KOOP JE TICKETS</a>
 
   <div class="film-trailer">
