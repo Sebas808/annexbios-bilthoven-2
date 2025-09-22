@@ -1,56 +1,54 @@
 body {
   font-family: Arial, sans-serif;
   padding: 20px;
-  background-color: #000000; 
+  background-color: #000000;
 }
 
 .film-container {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 30px;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 10px;
+  margin: 0 100px;
 }
-
 
 .film {
   background-color: #fff;
-  border-radius: 8px;
   overflow: hidden;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.15);
   text-align: left;
   display: flex;
   flex-direction: column;
+  margin: 0;
 }
 
 .film img {
   width: 100%;
   display: block;
+  height: 400px;
 }
 
 .button {
-  display: block;
-  margin-top: auto; 
-  padding: 10px 15px;
-  background-color: #6a4c93;
+  margin: 10px auto 20px auto;
+  width: fit-content;
+  padding: 8px 16px;
+  background-color: #6E4F7D;
   color: white;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  border-radius: 3px;
 }
 
 .button:hover {
   background-color: #54367a;
 }
 
-
 #films {
-  margin-top: 10%;
+  margin: 10% 100px 0 100px;
 }
 
 .film h2 {
   font-size: 18px;
   margin: 10px 0 5px;
-  color: #333;
+  color: #666666;
 }
 
 .film p {
@@ -60,19 +58,20 @@ body {
 }
 
 #head {
-  width: 25%;
+  width: 500px;
+  height: 80px;
   background: #fff;
-  padding: 15px 20px;
-  border-radius: 4px;
+  display: flex;
+  align-items: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   margin-bottom: 20px;
+  padding: 0 20px;
 }
 
 #head h2 {
-  color: #6a4c93;
+  color: #6e4f7d;
   margin: 0;
-  padding-bottom: 10px;
-  border-bottom: 2px solid #eee;
+  font-size: 50px;
 }
 
 #title {
@@ -84,7 +83,8 @@ body {
 #filters {
   display: flex;
   gap: 15px;
-  margin-top: 10px;
+  margin: 20px 0;
+  flex-wrap: wrap;
 }
 
 #filters .input {
@@ -93,9 +93,38 @@ body {
   gap: 5px;
 }
 
-#films, 
+.filter-box {
+  background: #fff;
+  padding: 12px 16px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #765984;
+  font-weight: bold;
+}
+
+#films,
 .film-container {
   background-color: #000000;
-  padding: 20px;
-  border-radius: 8px; 
+  border-radius: 8px;
 }
+
+.filter-box label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+
+.arrow-icon {
+  margin-left: 5px;
+  width: 30px;  
+  height: 30px;
+}
+
+
+
+
