@@ -36,9 +36,9 @@
             <div class="footer-top-right">
                 <div class="footer-title">VOLG ONS</div>
                 <div class="social-icons">
-                    <a href="#"><img src="assets/img/facebook.png" alt="Facebook"></a>
-                    <a href="https://www.youtube.com/shorts/8SljQrC3fSA"><img src="assets/img/twitter.png" alt="Twitter"></a>
-                    <a href="https://www.instagram.com/jackvangameren/"><img src="assets/img/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.facebook.com"><img src="assets/img/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.twitter.com"><img src="assets/img/twitter.png" alt="Twitter"></a>
+                    <a href="https://www.instagram.com"><img src="assets/img/instagram.png" alt="Instagram"></a>
                 </div>
             </div>
         <div class="footer-stairs">

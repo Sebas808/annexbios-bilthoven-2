@@ -55,9 +55,15 @@ $film = $films[$id];
     </div>
 
     <div class="film-info">
-      <h2 class="film-title"><?php echo $film["title"]; ?></h2>
-      <p class="film-meta"><strong>Release:</strong> <?php echo $film["release"]; ?></p>
-      <p class="film-rating"><?php echo $film["rating"]; ?></p>
+       <p class="film-rating"><?php echo $film["rating"]; ?></p>
+       <?php if (!empty($film["kijkwijzer"])): ?>
+  <div class="kijkwijzer-icons">
+    <?php foreach ($film["kijkwijzer"] as $icon): ?>
+      <img src="<?php echo $icon; ?>" alt="Kijkwijzer icoon" class="kijkwijzer-icon">
+    <?php endforeach; ?>
+  </div>
+<?php endif; ?>
+     <p class="film-release"><strong>release:</strong> <?php echo $film["release"]; ?></p> 
       <p class="film-description"><?php echo $film["description"]; ?></p>
 
       <?php if (!empty($film["actors"])): ?>
@@ -73,7 +79,7 @@ $film = $films[$id];
     </div>
   </div>
 
-  <!-- Button buiten film-container -->
+  <!-- //Button buiten film-container -->
   <a href="#" class="btn-ticket">KOOP JE TICKETS</a>
 
   <div class="film-trailer">

@@ -11,8 +11,8 @@ body {
   text-align: center;
   font-size: 28px;
   font-weight: bold;
-width: 800px;
-margin-left: 350px;
+width: 960px;
+margin-left: 280px;
 }
 
 /* Film detail container */
@@ -25,19 +25,21 @@ margin-left: 350px;
 .film-container {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 20px;
+
   background: white;
-  padding: 20px;
-  border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  
+
 }
 
 /* Poster */
 .film-poster img {
   width: 100%;
   max-width: 320px;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+height: 100%;
+}
+.film-poster{
+width: 350px;
+  background-color: #000;
 }
 
 .no-poster {
@@ -49,6 +51,7 @@ margin-left: 350px;
 .film-info {
   display: flex;
   flex-direction: column;
+  margin-left: 30px;
 }
 
 .film-title {
@@ -62,9 +65,15 @@ margin-left: 350px;
 }
 
 .film-rating {
-  font-size: 20px;
+  font-size: 30px;
   color: purple;
   margin: 10px 0;
+}
+.film-release {
+  font-size: 20px;  
+  font-weight: 600;
+  margin-bottom: 15px;
+  color: grey;
 }
 
 .film-description {
@@ -85,9 +94,7 @@ margin-left: 350px;
 .actor-photo {
   width: 50px;
   height: 50px;
-  border-radius: 50%;
   object-fit: cover;
-  border: 2px solid #ccc;
 }
 
 .no-actors {
@@ -105,8 +112,6 @@ margin-left: 350px;
   font-size: 18px;
   font-weight: bold;
   text-decoration: none;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
   transition: background 0.3s;
   text-align: center;
 }
@@ -122,8 +127,20 @@ margin-left: 350px;
 
 .film-trailer iframe {
   width: 100%;
-  height: 400px;
+  height: 800px;
   border: none;
   border-radius: 12px;
   box-shadow: 0px 4px 10px rgba(0,0,0,0.2);
+  border: 5px solid #7d3cb5;
+  
+}
+.kijkwijzer-icons {
+  margin: 8px 0;
+}
+
+.kijkwijzer-icon {
+  width: 40px;
+  height: auto;
+  margin-right: 6px;
+  display: inline-block;
 }
