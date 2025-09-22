@@ -289,5 +289,59 @@ width: 140px;
     font-size: larger;
 
 }
+    /* ===== Responsive styles ===== */
+@media (max-width: 768px) {
+  .footer-top {
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    gap: 40px;
+    text-align: center;
+  }
 
+  .footer-top-left,
+  .footer-top-mid,
+  .footer-top-right {
+    margin: 0;
+    width: 100%;
+  }
+
+  .footer-description {
+    width: 100%;
+    margin: 15px 0;
+  }
+
+  .footer-logo-kleur {
+    width: 150px;
+  }
+
+  .footer-button {
+    margin: 10px auto;
+    display: inline-block;
+  }
+
+  .footer-top-mid {
+    margin-top: 0;
+  }
+
+  .footer-top-right {
+    margin-top: 0;
+  }
+
+  .social-icons {
+    justify-content: center;
+    margin-left: 292px;
+  }
+
+  .footer-stairs {
+    display: none; 
+  }
+
+  .footer-down {
+    text-align: center;
+    margin-left: 0;
+    font-size: 12px;
+    padding: 10px;
+  }
+}
 /* footer css tot hier */

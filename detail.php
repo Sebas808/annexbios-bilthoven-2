@@ -15,6 +15,7 @@ detail.php?id=3 → Solo -->
   <title><?php echo $film["title"]; ?></title>
   <link rel="stylesheet" href="assets/css/detail.css">
    <link rel="stylesheet" href="assets/css/main.css">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
    
 <?php

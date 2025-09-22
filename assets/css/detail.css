@@ -144,3 +144,61 @@ width: 350px;
   margin-right: 6px;
   display: inline-block;
 }
+
+@media (max-width: 1400px) {
+  .detail-header {
+    width: 100%;
+    margin-left: 0;
+   
+  }
+}
+  @media (max-width: 600px) {
+    body {
+    background-color: #000; /* mag zwart blijven */
+  }
+  .detail-header {
+    width: 100% !important;
+    margin-left: 0 !important;
+    font-size: 20px;
+    padding: 15px;
+  }
+  /* Film detail container */
+  .film-detail {
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 0 10px;
+  }
+
+  /* Film container 1 kolom */
+  .film-container {
+    grid-template-columns: 1fr;
+    width: 100% !important;
+  }
+
+  /* Poster schaalt mee */
+  .film-poster {
+    width: 100% !important;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: transparent; /* zwart blokje weg */
+  }
+
+  .film-poster img {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Info netjes zonder margin */
+  .film-info {
+    margin-left: 0 !important;
+    margin-top: 10px;
+  }
+
+  /* Trailer compacter */
+  .film-trailer iframe {
+    width: 100% !important;
+    height: 220px;
+  }
+}
+
+
