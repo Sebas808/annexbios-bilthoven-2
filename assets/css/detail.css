@@ -78,6 +78,7 @@ width: 350px;
 
 .film-description {
   margin: 10px 0;
+  color: #000;
 }
 
 /* Actors */
@@ -198,6 +199,13 @@ width: 350px;
   .film-trailer iframe {
     width: 100% !important;
     height: 220px;
+  }
+
+  .film-description,
+   .film-rating, 
+   .film-release,
+   .kijkwijzer-icons{
+margin-left: 15px;
   }
 }
 

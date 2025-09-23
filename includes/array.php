@@ -8,13 +8,13 @@ $films = [
   "rating" => "★★★★☆",
   "release" => "12-02-2016",
   "description" => '
-    <p>Een antiheld die zwarte humor en brute actie combineert.</p>
-    <p style="margin:4px 0;">Genre: Actie, Komedie, Sciencefiction</p>
-    <p style="margin:4px 0;">Filmlengte: 119 minuten</p>
-    <p style="margin:4px 0;">Land: Verenigde Staten</p>
-    <p style="margin:4px 0;">Imdb score: 7.6/10</p>
-    <p style="margin:4px 0;">Regisseur: David Leitch</p>
-    <p style="margin:4px 0;">Acteurs:</p>
+    <br>Een antiheld die zwarte humor en brute actie combineert.</br>
+    <br style="margin:4px 0;">Genre: Actie, Komedie, Sciencefiction</br>
+    <br style="margin:4px 0;">Filmlengte: 119 minuten</br>
+    <br style="margin:4px 0;">Land: Verenigde Staten</br>
+    <br style="margin:4px 0;">Imdb score: 7.6/10</br>
+    <br style="margin:4px 0;">Regisseur: David Leitch</br>
+    <br style="margin:4px 0;">Acteurs:</br>
   ',
   "actors" => [],
   "trailer" => "https://www.youtube.com/embed/ONHBaC-pfsk",
@@ -30,13 +30,13 @@ $films = [
     "rating" => "★★★☆☆",
     "release" => "07-06-2018",
     "description" => '
-  <p>"De dinosaurussen keren terug in een spannend vervolg dat begint drie jaar na de verwoesting van het themapark Jurassic World. Isla Nublar, ooit een plek vol toeristen en wonderen, is inmiddels verlaten door mensen. De dinosaurussen die daar vrij rondlopen, dreigen echter opnieuw met uitsterven wanneer een slapende vulkaan tot uitbarsting komt. De wereld staat voor een dilemma: laten we de prehistorische dieren sterven of riskeren we alles om ze te redden?.</p>
-  <p style="margin:4px 0;">Genre: Actie, Avontuur, Sciencefiction</p>
-<p style="margin:4px 0;">Filmlengte: 128 minutes</p>
-<p style="margin:4px 0;">Land: USA</p>
-<p style="margin:4px 0;">Imdb score: 6.1/10</p>
-<p style="margin:4px 0;">Regisseur: J.A. Bayona</p>
-<p style="margin:4px 0;">Acteurs: Chris Pratt, Bryce Dallas Howard, Rafe Spall, Toby Jones</p>
+  <br>"De dinosaurussen keren terug in een spannend vervolg dat begint drie jaar na de verwoesting van het themapark Jurassic World. Isla Nublar, ooit een plek vol toeristen en wonderen, is inmiddels verlaten door mensen. De dinosaurussen die daar vrij rondlopen, dreigen echter opnieuw met uitsterven wanneer een slapende vulkaan tot uitbarsting komt. De wereld staat voor een dilemma: laten we de prehistorische dieren sterven of riskeren we alles om ze te redden?.</br>
+  <br style="margin:4px 0;">Genre: Actie, Avontuur, Sciencefiction</br>
+<br style="margin:4px 0;">Filmlengte: 128 minutes</br>
+<br style="margin:4px 0;">Land: USA</br>
+<br style="margin:4px 0;">Imdb score: 6.1/10</br>
+<br style="margin:4px 0;">Regisseur: J.A. Bayona</br>
+<br style="margin:4px 0;">Acteurs: Chris Pratt, Bryce Dallas Howard, Rafe Spall, Toby Jones</br>
 ',
     "actors" => [ "assets/img/Chris_pratt.jpg",
   "assets/img/BryceDallas.jpg",
@@ -57,13 +57,13 @@ $films = [
     "rating" => "★★★☆☆",
     "release" => "22-03-2018",
     "description" => '
-  <p>De ondeugende Pieter Konijn maakt de boel onveilig in de tuin van Mr. McGregor.</p>
-<p style="margin:4px 0;">Genre: Familie, Komedie, Animatie</p>
-<p style="margin:4px 0;">Filmlengte: 95 minuten</p>
-<p style="margin:4px 0;">Land: Verenigde Staten</p>
-<p style="margin:4px 0;">Imdb score: 6,4</p> 
-<p style="margin:4px 0;">Regisseur: Will Gluck</p>
-<p style="margin:4px 0;">Acteurs: James Corden, Rose Byrne, Domhnall Gleeson, Margot Robbie</p>
+  <br>De ondeugende Pieter Konijn maakt de boel onveilig in de tuin van Mr. McGregor.</br>
+<br style="margin:4px 0;">Genre: Familie, Komedie, Animatie</br>
+<br style="margin:4px 0;">Filmlengte: 95 minuten</br>
+<br style="margin:4px 0;">Land: Verenigde Staten</br>
+<br style="margin:4px 0;">Imdb score: 6,4</br>
+<br style="margin:4px 0;">Regisseur: Will Gluck</br>
+<br style="margin:4px 0;">Acteurs: James Corden, Rose Byrne, Domhnall Gleeson, Margot Robbie</br>
 ',
     "actors" => [],
     "trailer" => "https://www.youtube.com/embed/7Pa_Weidt08"
@@ -76,13 +76,13 @@ $films = [
     "rating" => "★★★☆☆",
     "release" => "23-05-2018",
     "description" => '
-  <p>Het verhaal van een jonge Han Solo en zijn eerste avonturen..</p>
-  <p style="margin:4px 0;">Genre: Actie</p>
-  <p style="margin:4px 0;">Filmlengte: 128 minutes</p>
-  <p style="margin:4px 0;">Land: USA</p>
-  <p style="margin:4px 0;">Imdb score: 8.3/10</p>
-  <p style="margin:4px 0;">Regisseur: Juan Antonio Bayona</p>
-  <p style="margin:4px 0;">Acteurs:</p>
+  <br>Het verhaal van een jonge Han Solo en zijn eerste avonturen..</br>
+  <br style="margin:4px 0;">Genre: Actie</br>
+  <br style="margin:4px 0;">Filmlengte: 128 minutes</br>
+  <br style="margin:4px 0;">Land: USA</br>
+  <br style="margin:4px 0;">Imdb score: 8.3/10</br>
+  <br style="margin:4px 0;">Regisseur: Juan Antonio Bayona</br>
+  <br style="margin:4px 0;">Acteurs:</br>
 ',
     "actors" => [],
     "trailer" => "https://www.youtube.com/embed/jPEYpryMp2s",

@@ -22,7 +22,7 @@ detail.php?id=3 → Solo -->
  include 'includes/h1.php';
 include 'includes/array.php';
 
-$id = isset($_GET['id']) ? (int)$_GET['id'] : 1;
+$id = isset($_GET['id']) ? (int)$_GET['id'] : 3;
 
 if (!isset($films[$id])) {
     echo "<h2>Film niet gevonden</h2>";
@@ -32,13 +32,7 @@ if (!isset($films[$id])) {
 $film = $films[$id];
 ?>
 
-<!DOCTYPE html>
-<html lang="nl">
-<head>
-  <meta charset="UTF-8">
-  <title><?php echo $film["title"]; ?></title>
-  <link rel="stylesheet" href="style.css">
-</head>
+
 <body>
 
 <header class="detail-header">

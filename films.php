@@ -49,28 +49,28 @@
                 "release" => "",
                 "beschrijving" => "Beschrijving van film 1...",
                 "poster" => "https://m.media-amazon.com/images/I/71H4DWjnvbL.jpg",
-                "link" => "#"
+                "link" => "detail.php?id=1"
             ],
             [
                 "titel" => "Film Titel 2",
                 "release" => "",
                 "beschrijving" => "Beschrijving van film 2...",
                 "poster" => "https://theposterdepot.com/cdn/shop/products/deadpool2ptr08201901_ed167c6b-48fa-43f0-a7a9-bdc094e37926_580x.jpg?v=1754777660",
-                "link" => "#"
+                "link" => "detail.php?id=0"
             ],
             [
                 "titel" => "Film Titel 3",
                 "release" => "",
                 "beschrijving" => "Beschrijving van film 3...",
                 "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
-                "link" => "#"
+                "link" => "detail.php?id=3"
             ],
             [
                 "titel" => "Film Titel 4",
                 "release" => "",
                 "beschrijving" => "Beschrijving van film 4...",
                 "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
-                "link" => "#"
+                "link" => "detail.php?id=2"
             ],
             [
                 "titel" => "Film Titel 5",
