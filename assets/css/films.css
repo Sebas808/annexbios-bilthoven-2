@@ -35,6 +35,7 @@ body {
   font-weight: bold;
   text-align: center;
   text-decoration: none;
+  margin: 10px 20px 40px;
 }
 
 .button:hover {
@@ -42,23 +43,23 @@ body {
 }
 
 #films {
-  margin: 10% 100px 0 100px;
+  margin-top: 10%;
 }
 
 .film h2 {
   font-size: 18px;
-  margin: 10px 0 5px;
+  margin: 10px 20px 5px;
   color: #666666;
 }
 
 .film p {
   font-size: 14px;
   color: #555;
-  margin: 5px 0;
+  margin: 10px 20px 5px;
 }
 
 #head {
-  width: 500px;
+  width: 780px;
   height: 80px;
   background: #fff;
   display: flex;
@@ -100,30 +101,96 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  cursor: pointer;
   color: #765984;
   font-weight: bold;
 }
 
-#films,
-.film-container {
-  background-color: #000000;
-  border-radius: 8px;
+.filter-box span {
+  cursor: default; 
 }
 
-.filter-box label {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100%;
+#films,
+.film-container {
+  margin: 0 100px;
 }
 
 
 .arrow-icon {
   margin-left: 5px;
-  width: 30px;  
-  height: 30px;
+  width: 15px;  
+  height: 15px;
 }
+
+
+.fa-sliders {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    font-size: 50px; 
+    line-height: 50px; 
+    text-align: center;
+}
+
+.star-rating {
+  position: relative;
+  display: inline-block;
+  color: #ccc; 
+  font-size: 20px;
+}
+
+.star-rating .filled {
+  position: absolute;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: #6e4f7d; 
+}
+
+.film .rating {
+  margin: 10px 10px 0px;
+}
+
+.dropdown {
+  position: relative;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; 
+  left: 0;
+  background: #fff;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 6px;
+  flex-direction: column;
+  gap: 5px;
+  z-index: 1000;
+}
+
+.dropdown-menu label {
+  display: block;
+  font-size: 14px;
+  color: #333;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu label:hover {
+  background: #f0f0f0;
+}
+
+
+
+
+
+
+
+
+
 
 
 
