@@ -59,98 +59,140 @@
 
         $films = [
             [
-                "titel" => "Film Titel 1",
+                "titel" => "JURASSIC WORLD: 
+FALLEN KINGDOM ",
                 "rating" => 2.6,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 1...",
+                "release" => "7-06-2018",
+                "beschrijving" => "Welkom in Jurassic World: Fallen 
+Kingdom! Favoriete personages 
+keren terug in dit 3D actie-
+spektakel.",
                 "poster" => "https://m.media-amazon.com/images/I/71H4DWjnvbL.jpg",
                 "link" => "detail.php?id=1"
             ],
             [
-                "titel" => "Film Titel 2",
+                "titel" => "DEADPOOL 2",
                 "rating" => 3,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 2...",
+                "release" => "17-05-2018",
+                "beschrijving" => "Na het overleven van een bijna 
+fatale runderaanval, worstelt een 
+misvormde cafetaria-kok (Wade 
+Wilson) om zijn droom",
                 "poster" => "https://theposterdepot.com/cdn/shop/products/deadpool2ptr08201901_ed167c6b-48fa-43f0-a7a9-bdc094e37926_580x.jpg?v=1754777660",
                 "link" => "detail.php?id=0"
             ],
             [
-                "titel" => "Film Titel 3",
+                "titel" => "SOLO:
+A STAR WARS STORY",
                 "rating" => 5,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 3...",
+                "release" => "23-05-2018",
+                "beschrijving" => "Een compleet nieuw avontuur uit 
+een ‘galaxy far, far away’, dat het 
+verhaal vertelt over het verleden 
+van de iconische smokkelaar, ",
                 "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
                 "link" => "detail.php?id=3"
             ],
             [
-                "titel" => "Film Titel 4",
+                "titel" => "PIETER KONIJN",
                 "rating" => 3,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 4...",
+                "release" => "28-03-2018",
+                "beschrijving" => "Verfilming van Beatrix Potter’s 
+tijdloze verhaal over een eigenwijs 
+konijn dat probeert de moestuin 
+van een boer binnen te dringen.",
                 "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
                 "link" => "detail.php?id=2"
             ],
             [
-                "titel" => "Film Titel 5",
+                "titel" => "SOLO:
+A STAR WARS STORY",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 5...",
+                "release" => "23-05-2018",
+                "beschrijving" => "Een compleet nieuw avontuur uit 
+een ‘galaxy far, far away’, dat het 
+verhaal vertelt over het verleden 
+van de iconische smokkelaar, ",
                 "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 6",
+                "titel" => "PIETER KONIJN",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 6...",
+                "release" => "28-03-2018",
+                "beschrijving" => "Verfilming van Beatrix Potter’s 
+tijdloze verhaal over een eigenwijs 
+konijn dat probeert de moestuin 
+van een boer binnen te dringen.",
                 "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 7",
+                "titel" => "JURASSIC WORLD: 
+FALLEN KINGDOM",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 7...",
+                "release" => "7-06-2018",
+                "beschrijving" => "Welkom in Jurassic World: Fallen 
+Kingdom! Favoriete personages 
+keren terug in dit 3D actie-
+spektakel.",
                 "poster" => "https://m.media-amazon.com/images/I/71H4DWjnvbL.jpg",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 8",
+                "titel" => "DEADPOOL 2",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 8...",
+                "release" => "17-05-2018",
+                "beschrijving" => "Na het overleven van een bijna 
+fatale runderaanval, worstelt een 
+misvormde cafetaria-kok (Wade 
+Wilson) om zijn droom",
                 "poster" => "https://theposterdepot.com/cdn/shop/products/deadpool2ptr08201901_ed167c6b-48fa-43f0-a7a9-bdc094e37926_580x.jpg?v=1754777660",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 9",
+                "titel" => "SOLO:
+A STAR WARS STORY",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 9...",
+                "release" => "23-05-2018",
+                "beschrijving" => "Een compleet nieuw avontuur uit 
+een ‘galaxy far, far away’, dat het 
+verhaal vertelt over het verleden 
+van de iconische smokkelaar,",
                 "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 10",
+                "titel" => "PIETER KONIJN",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 10...",
+                "release" => "28-03-2018",
+                "beschrijving" => "Verfilming van Beatrix Potter’s 
+tijdloze verhaal over een eigenwijs 
+konijn dat probeert de moestuin 
+van een boer binnen te dringen.",
                 "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 11",
+                "titel" => "SOLO:
+A STAR WARS STORY",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 11...",
+                "release" => "23-05-2018",
+                "beschrijving" => "Een compleet nieuw avontuur uit 
+een ‘galaxy far, far away’, dat het 
+verhaal vertelt over het verleden 
+van de iconische smokkelaar, ",
                 "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
                 "link" => "#"
             ],
             [
-                "titel" => "Film Titel 12",
+                "titel" => "PIETER KONIJN",
                 "rating" => 4,
-                "release" => "",
-                "beschrijving" => "Beschrijving van film 12...",
+                "release" => "28-03-2018",
+                "beschrijving" => "Verfilming van Beatrix Potter’s 
+tijdloze verhaal over een eigenwijs 
+konijn dat probeert de moestuin 
+van een boer binnen te dringen.",
                 "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
                 "link" => "#"
             ],
