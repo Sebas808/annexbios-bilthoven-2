@@ -7,7 +7,6 @@
     <title>Film Agenda</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
-
     <link rel="stylesheet" href="/annexbios-bilthoven-2/assets/css/films.css">
 </head>
 
@@ -16,7 +15,6 @@
         <div id="head">
             <h2>FILM AGENDA</h2>
         </div>
-
 
         <div id="filters">
             <i class="fa-solid fa-sliders" style="color: #ffffff;"></i>
@@ -47,170 +45,44 @@
                     <label><input type="checkbox" value="horror"> Horror</label>
                 </div>
             </div>
-
-
-
-
         </div>
     </div>
 
     <div class="film-container">
         <?php
+        
+        $apiKey = "uE5aGsO97OKkOAzSv8c6MsA3rk79IQdS";
+        $url = "https://annexbios.gluwebsite.nl/admin/api/movies/get_movies.php";
 
-        $films = [
-            [
-                "titel" => "JURASSIC WORLD: 
-FALLEN KINGDOM ",
-                "rating" => 2.6,
-                "release" => "7-06-2018",
-                "beschrijving" => "Welkom in Jurassic World: Fallen 
-Kingdom! Favoriete personages 
-keren terug in dit 3D actie-
-spektakel.",
-                "poster" => "https://m.media-amazon.com/images/I/71H4DWjnvbL.jpg",
-                "link" => "detail.php?id=1"
-            ],
-            [
-                "titel" => "DEADPOOL 2",
-                "rating" => 3,
-                "release" => "17-05-2018",
-                "beschrijving" => "Na het overleven van een bijna 
-fatale runderaanval, worstelt een 
-misvormde cafetaria-kok (Wade 
-Wilson) om zijn droom",
-                "poster" => "https://theposterdepot.com/cdn/shop/products/deadpool2ptr08201901_ed167c6b-48fa-43f0-a7a9-bdc094e37926_580x.jpg?v=1754777660",
-                "link" => "detail.php?id=0"
-            ],
-            [
-                "titel" => "SOLO:
-A STAR WARS STORY",
-                "rating" => 5,
-                "release" => "23-05-2018",
-                "beschrijving" => "Een compleet nieuw avontuur uit 
-een ‘galaxy far, far away’, dat het 
-verhaal vertelt over het verleden 
-van de iconische smokkelaar, ",
-                "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
-                "link" => "detail.php?id=3"
-            ],
-            [
-                "titel" => "PIETER KONIJN",
-                "rating" => 3,
-                "release" => "28-03-2018",
-                "beschrijving" => "Verfilming van Beatrix Potter’s 
-tijdloze verhaal over een eigenwijs 
-konijn dat probeert de moestuin 
-van een boer binnen te dringen.",
-                "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
-                "link" => "detail.php?id=2"
-            ],
-            [
-                "titel" => "SOLO:
-A STAR WARS STORY",
-                "rating" => 4,
-                "release" => "23-05-2018",
-                "beschrijving" => "Een compleet nieuw avontuur uit 
-een ‘galaxy far, far away’, dat het 
-verhaal vertelt over het verleden 
-van de iconische smokkelaar, ",
-                "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
-                "link" => "#"
-            ],
-            [
-                "titel" => "PIETER KONIJN",
-                "rating" => 4,
-                "release" => "28-03-2018",
-                "beschrijving" => "Verfilming van Beatrix Potter’s 
-tijdloze verhaal over een eigenwijs 
-konijn dat probeert de moestuin 
-van een boer binnen te dringen.",
-                "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
-                "link" => "#"
-            ],
-            [
-                "titel" => "JURASSIC WORLD: 
-FALLEN KINGDOM",
-                "rating" => 4,
-                "release" => "7-06-2018",
-                "beschrijving" => "Welkom in Jurassic World: Fallen 
-Kingdom! Favoriete personages 
-keren terug in dit 3D actie-
-spektakel.",
-                "poster" => "https://m.media-amazon.com/images/I/71H4DWjnvbL.jpg",
-                "link" => "#"
-            ],
-            [
-                "titel" => "DEADPOOL 2",
-                "rating" => 4,
-                "release" => "17-05-2018",
-                "beschrijving" => "Na het overleven van een bijna 
-fatale runderaanval, worstelt een 
-misvormde cafetaria-kok (Wade 
-Wilson) om zijn droom",
-                "poster" => "https://theposterdepot.com/cdn/shop/products/deadpool2ptr08201901_ed167c6b-48fa-43f0-a7a9-bdc094e37926_580x.jpg?v=1754777660",
-                "link" => "#"
-            ],
-            [
-                "titel" => "SOLO:
-A STAR WARS STORY",
-                "rating" => 4,
-                "release" => "23-05-2018",
-                "beschrijving" => "Een compleet nieuw avontuur uit 
-een ‘galaxy far, far away’, dat het 
-verhaal vertelt over het verleden 
-van de iconische smokkelaar,",
-                "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
-                "link" => "#"
-            ],
-            [
-                "titel" => "PIETER KONIJN",
-                "rating" => 4,
-                "release" => "28-03-2018",
-                "beschrijving" => "Verfilming van Beatrix Potter’s 
-tijdloze verhaal over een eigenwijs 
-konijn dat probeert de moestuin 
-van een boer binnen te dringen.",
-                "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
-                "link" => "#"
-            ],
-            [
-                "titel" => "SOLO:
-A STAR WARS STORY",
-                "rating" => 4,
-                "release" => "23-05-2018",
-                "beschrijving" => "Een compleet nieuw avontuur uit 
-een ‘galaxy far, far away’, dat het 
-verhaal vertelt over het verleden 
-van de iconische smokkelaar, ",
-                "poster" => "https://www.vintagemovieposters.co.uk/wp-content/uploads/2020/04/IMG_4036-2-scaled.jpeg",
-                "link" => "#"
-            ],
-            [
-                "titel" => "PIETER KONIJN",
-                "rating" => 4,
-                "release" => "28-03-2018",
-                "beschrijving" => "Verfilming van Beatrix Potter’s 
-tijdloze verhaal over een eigenwijs 
-konijn dat probeert de moestuin 
-van een boer binnen te dringen.",
-                "poster" => "https://www.biosagenda.nl/poster/peter-rabbit_23747_140_0_90.jpg",
-                "link" => "#"
-            ],
+        
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_HTTPHEADER, ["api-key: " . $apiKey]);
+        curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false); 
+        curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, false);
 
+        $response = curl_exec($ch);
+        curl_close($ch);
 
-        ];
+        $data = json_decode($response, true);
 
+        if ($data && isset($data['data'])) {
+            $films = $data['data'];
+        } else {
+            $films = [];
+            echo "<p style='color:white;'>Kon geen films ophalen van de API.</p>";
+        }
 
-        foreach ($films as $index => $film) {
-            echo '<div class="film" id="film' . ($index + 1) . '">';
-            echo '<img src="' . $film["poster"] . '" alt="Poster van ' . $film["titel"] . '">';
-            echo '<h2>' . $film["titel"] . '</h2>';
-            echo '<div class="rating">';
+        
+        foreach ($films as $film) {
+            echo '<div class="film">';
+            echo '<img src="' . $film["poster"] . '" alt="Poster van ' . htmlspecialchars($film["title"]) . '">';
+            echo '<h2>' . htmlspecialchars($film["title"]) . '</h2>';
 
+            
             echo '<div class="rating">';
             $maxStars = 5;
-            $rating = $film["rating"];
-
+            $rating = $film["stars"];
             for ($i = 1; $i <= $maxStars; $i++) {
                 $percentage = min(max($rating - ($i - 1), 0), 1) * 100;
                 echo '<span class="star-rating">';
@@ -220,18 +92,17 @@ van een boer binnen te dringen.",
             }
             echo '</div>';
 
+            
+            echo '<p>Release: ' . htmlspecialchars($film["release_date"]) . '</p>';
+            echo '<p>' . htmlspecialchars($film["overview"]) . '</p>';
 
-
-            echo '</div>';
-            echo '<p>Release: ' . $film["release"] . '</p>';
-            echo '<p>' . $film["beschrijving"] . '</p>';
-            echo '<a href="' . $film["link"] . '" class="button">Meer info & Tickets</a>';
+            
+            echo '<a href="detail.php?id=' . $film["id"] . '" class="button">Meer info & Tickets</a>';
             echo '</div>';
         }
-
-
         ?>
     </div>
+
     <script>
         document.addEventListener("DOMContentLoaded", () => {
             const toggle = document.getElementById("dropdown-toggle");
@@ -241,7 +112,6 @@ van een boer binnen te dringen.",
                 menu.style.display = menu.style.display === "block" ? "none" : "block";
             });
 
-
             document.addEventListener("click", (e) => {
                 if (!toggle.contains(e.target) && !menu.contains(e.target)) {
                     menu.style.display = "none";
@@ -249,7 +119,5 @@ van een boer binnen te dringen.",
             });
         });
     </script>
-
 </body>
-
 </html>
