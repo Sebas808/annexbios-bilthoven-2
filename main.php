@@ -44,7 +44,7 @@
                     </div>
 
                     <div class="deur-column">
-                        <img src="assets/img/foto.png" class="deur">
+                        <img src="assets/img/foto.png" class="deur" alt="deur-foto">
                     </div>
 
                 </div>
