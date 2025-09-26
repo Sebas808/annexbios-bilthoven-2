@@ -1,7 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  padding: 20px;
-  background-color: #000000;
 }
 
 .film-container {
@@ -10,6 +8,8 @@ body {
   gap: 10px;
   margin: 0 100px;
 }
+
+
 
 .film {
   background-color: #fff;
@@ -47,7 +47,7 @@ body {
 
 .film h2 {
   font-size: 18px;
-  margin: 10px 0 5px;
+  /* margin: 10px 0 5px; */
   color: #666666;
 }
 
@@ -60,7 +60,7 @@ body {
 #head {
   width: 500px;
   height: 80px;
-  background: #fff;
+  /* background: #fff; */
   display: flex;
   align-items: center;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
@@ -126,5 +126,9 @@ body {
 }
 
 
-
-
+@media (max-width: 900px) {
+  .film-container {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+ 

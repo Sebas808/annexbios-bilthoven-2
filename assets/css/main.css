@@ -1,8 +1,12 @@
 :root {
-    --card-width: 550px;       /* breedte van kaart + foto */
-    --map-h: 300px;            /* hoogte van de kaart */
-    --paars-h: 200px;          /* hoogte van het paarse blok */
-    --left-total: calc(var(--map-h) + var(--paars-h)); /* totale hoogte linkerkolom */
+    --card-width: 550px;
+    /* breedte van kaart + foto */
+    --map-h: 300px;
+    /* hoogte van de kaart */
+    --paars-h: 200px;
+    /* hoogte van het paarse blok */
+    --left-total: calc(var(--map-h) + var(--paars-h));
+    /* totale hoogte linkerkolom */
 }
 
 /* GLOBAL */
@@ -10,10 +14,12 @@
     box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
     margin: 0;
     min-height: 100%;
     overflow-y: auto;
+    background-color:   black;
 }
 
 /* HEADER */
@@ -110,18 +116,12 @@ html, body {
 
 /* HEADER IMAGE + OVERLAY */
 .header_picture {
+    /* min-height: 1400px; */
     position: relative;
     width: 100vw;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
-.header_picture::after {
-    content: "";
-    display: block;
-    width: 100%;
-    height: 100vh;
-    background-color: black;
-}
 
 .header_picture img {
     width: 100%;
@@ -132,7 +132,8 @@ html, body {
 
 .header-content {
     position: absolute;
-    top: 50px;  /* vlak onder header */
+    top: 50px;
+    /* vlak onder header */
     left: 50%;
     transform: translateX(-50%);
     display: flex;
@@ -144,6 +145,7 @@ html, body {
 
 /* responsive voor telefoons  (header) */
 @media (max-width: 600px) {
+
     .header,
     .underheader {
         flex-direction: column;
@@ -152,6 +154,7 @@ html, body {
         padding: 8px 12px;
         height: auto;
     }
+
     .underheader {
         background: none;
         background-color: transparent;
@@ -200,6 +203,7 @@ html, body {
     display: flex;
     gap: 40px;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .kaart-column {
@@ -227,7 +231,8 @@ html, body {
     flex-direction: column;
 }
 
-p, h3 {
+p,
+h3 {
     margin: 0;
 }
 
@@ -264,11 +269,8 @@ h3 {
     margin: 40px auto;
     padding: 16px;
     border-radius: 6px;
-    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
-
-
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
@@ -276,14 +278,19 @@ h3 {
         flex-direction: column;
         align-items: center;
     }
-    .map, .paars-blok, .deur-column .deur {
+
+    .map,
+    .paars-blok,
+    .deur-column .deur {
         width: 100%;
         max-width: 480px;
     }
+
     .paars-blok {
         height: auto;
         padding: 14px;
     }
+
     .deur-column .deur {
         height: auto;
     }
@@ -302,42 +309,12 @@ h3 {
     }
 }
 
+@media (max-width: 900px) {
+    .deur-column .deur {
+        height: auto !important;
+    }
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* film css vanaf hier */
 
 
 
@@ -352,6 +329,7 @@ h3 {
     height: 430px;
     font-family: Arial, sans-serif;
     color: #fff;
+    margin-top: 100px;
 }
 
 .footer-top {
@@ -448,201 +426,81 @@ h3 {
     margin-left: -95px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* footer css vanaf hier */
-
-body{
-margin: 0;
-
-}
-
-.footer-main {
-       position: relative; /* belangrijk voor absolute kinderen */
-    background-color: #000;
-    width: 100%;
-    font-family: Arial, sans-serif;
-    height: 430px;
-}
-
-.footer-top {
-    display: flex;
-    justify-content: flex-start; 
-    background-color: #666;
-    color: #fff;
-    padding: 50px 100px; 
-    gap: 70px; 
-}
-
-.footer-top-left {
-    width: 280px; 
-}
-
-
-
-.footer-logo-kleur{
-width: 200px;
-
-  filter: brightness(0) invert(1);
-}
-
-
-
-
-.footer-description {
-    margin: 20px 0;
-    line-height: 1.5;
-    width: 310px;
-}
-
-
-.footer-button {
-    background-color: #fff;
-    color: #000;
-    border: none;
-    padding: 10px 20px;
-    cursor: pointer;
-    font-weight: bold;
-}
-
-.footer-top-mid {
-margin-top: 55px;
-margin-left: 70px;
-width: 160px;
-}
-
-.footer-title {
-    font-size: 24px; 
-    margin-bottom: 15px;
-   
-    font-weight: 600;
-}
-.footer-links {
-    display: flex;
-    flex-direction: column;
-    gap: 8px;
-}
-
-
-.footer-links a {
-    color: #fff;
-    text-decoration: none;
-}
-
-.footer-top-right {
-    margin-top: 50px;
-    margin-right: 250px;
-width: 140px;
-}
-
-.social-icons {
-    display: flex;
-    gap: 15px;
-    
-    width: 28px;
-    height: 28px;
-}
-
-.social-icons img {
-    width: 30px;
-    height: 30px;
-    background-color: #fff;
-    border-radius: 50%;
-    padding: 5px;
-}
-
-.footer-down {
-    background-color: #000;
-   margin-left: 80px;
-    padding: 15px;
-    color: #fff;
-    font-size: 14px;
-}
-.footer-stairs {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    height: 430px;
-    width: 100px;
-}
-
-.footer-stair-pic {
-    /* height: 430px; of bijvoorbeeld 430px als je vaste hoogte wil */
-    opacity: 0.7; /* maakt het wat subtieler */
-   margin-top: 67px;
-    margin-left: -95px;
-    font-size: larger;
-
-}
-    /* ===== Responsive styles ===== */
+/* footer responsive */
 @media (max-width: 768px) {
-  .footer-top {
-    flex-direction: column;
-    align-items: center;
-    padding: 30px 20px;
-    gap: 40px;
-    text-align: center;
-  }
+    .footer-top {
+        flex-direction: column;
+        align-items: center;
+        padding: 30px 20px;
+        gap: 40px;
+        text-align: center;
+    }
 
-  .footer-top-left,
-  .footer-top-mid,
-  .footer-top-right {
-    margin: 0;
-    width: 100%;
-  }
+    .footer-top-left,
+    .footer-top-mid,
+    .footer-top-right {
+        margin: 0;
+        width: 100%;
+    }
 
-  .footer-description {
-    width: 100%;
-    margin: 15px 0;
-  }
+    .footer-description {
+        width: 100%;
+        margin: 15px 0;
+    }
 
-  .footer-logo-kleur {
-    width: 150px;
-  }
+    .footer-logo-kleur {
+        width: 150px;
+    }
 
-  .footer-button {
-    margin: 10px auto;
-    display: inline-block;
-  }
+    .footer-button {
+        margin: 10px auto;
+        display: inline-block;
+    }
 
-  .footer-top-mid {
-    margin-top: 0;
-  }
+    .social-icons {
+        justify-content: center;
+        margin-left: 0;
+    }
 
-  .footer-top-right {
-    margin-top: 0;
-  }
+    .footer-stairs {
+        display: none;
+    }
 
-  .social-icons {
-    justify-content: center;
-    margin-left: 292px;
-  }
-
-  .footer-stairs {
-    display: none; 
-  }
-
-  .footer-down {
-    text-align: center;
-    margin-left: 0;
-    font-size: 12px;
-    padding: 10px;
-  }
+    .footer-down {
+        text-align: center;
+        margin-left: 0;
+        font-size: 12px;
+        padding: 10px;
+    }
 }
-/* footer css tot hier */
+
+
+
+
+@media (max-width: 900px) {
+    .hopen {
+        display: none !important;
+    }
+    .header_picture {
+        min-height: 1400px;
+    }
+    .nieuw-blok {
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0;
+    }
+    body {
+        background-color: white;
+    }
+    .buy_ticket {
+        color: black;
+    }
+}
+
+
+
+
+
+
+
+

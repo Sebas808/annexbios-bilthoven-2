@@ -11,7 +11,7 @@
 <body>
     <header class="header">
         <div class="logo_group">
-            <img src="../assets/img/logo_hoofd.png" alt="AnnexBios logo" class="logo">
+            <img src="assets/img/logo_hoofd.png" alt="AnnexBios logo" class="logo">
             <div class="divider"></div>
             <div class="divider_text">Bilthoven</div>
         </div>
